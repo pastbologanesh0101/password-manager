@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Sample / manual-testing vault files (encrypted vault data, not source code)
+*.vault
+vault.dat
+sample_vault*
+.password_manager_vault
+*_vault.db
+*_vault.db.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
